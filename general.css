@@ -1,0 +1,28 @@
+body {
+	background-color: #006699;
+}
+#maintable {
+	background-color: #FFFFFF;
+}
+
+td {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px}
+hr {color: #003399; height: 1px}
+h1 {font-size: 20px; font-weight: normal; color: #003399}
+h2, h3, h4 {font-size: 16px; font-weight: bold; color: #0066CC}
+a:link {color: #0033CC; text-decoration: none}
+a:visited {color: #0033CC; text-decoration: none }
+a:hover {color: #0099FF; text-decoration: none }
+p {}
+ul {}
+ol {}
+
+a.tabs:link {color: #FFFFFF; text-decoration: none}
+a.tabs:visited {color: #FFFFFF; text-decoration: none }
+a.tabs:hover {color: #CCCCCC; text-decoration: none }
+.tabs {color: #FFFFFF; padding-right: 5px; padding-left: 5px; text-align: center; font-weight: bold}
+.small {font-size: 10px;}
+#designed a {
+	color: #CCCCCC;
+	text-decoration: none;
+	font-size: 11px;
+}

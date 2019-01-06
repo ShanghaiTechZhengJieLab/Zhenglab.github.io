@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>LDsplit -- Association Studies of Recombination Hotspots</title>
+<style type="text/css">
+<!--
+.STYLE13 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+.STYLE15 {font-family: Arial, Helvetica, sans-serif}
+.STYLE16 {font-size: 16px}
+.STYLE19 {font-size: 18px}
+.STYLE20 {font-size: 18}
+.STYLE22 {
+	font-size: 36px;
+	color: #0000FF;
+	font-weight: bold;
+}
+.STYLE23 {font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; }
+.STYLE24 {
+	font-size: 24px;
+	font-weight: bold;
+}
+body {
+	margin-left: 100px;
+	margin-right: 250px;
+	margin-top: 100px;
+}
+-->
+</style>
+</head>
+
+<body>
+<p align="center" class="STYLE6 STYLE9 STYLE10 STYLE13 STYLE22">LDsplit</p>
+<p class="STYLE23">Introduction</p>
+<p align="justify" class="STYLE13">LDsplit is an open source Java program that detects SNPs (single nulceotide polymorphisms)  associated with meiotic recombination hotspots. The association is measured by the difference of historical recombination rates at a hotspot between two subpopulations with different alleles at a candidate SNP (Figure 1). With interactive data visualization for exploratory analysis (Figure 2), LDsplit can be used to identify <em>cis</em>-regulatory elements of recombination hotspots both in large scale and high resolution.</p>
+<p align="justify" class="STYLE13">&nbsp;</p>
+<p><span class="STYLE15"><span class="STYLE16"><strong><span class="STYLE19"><span class="STYLE20"><span class="STYLE23">Download</span></span></span></strong></span></span></p>
+<p><span class="STYLE13"><a href="LDsplit/LDsplit.zip">LDsplit package</a> in zip file (including executable jar file and Java source code)<br />
+  <br />
+  <a href="LDsplit/LDsplit_manual.pdf">User manual</a> of LDsplit (PDF) </span><span class="STYLE15"><span class="STYLE16"><span class="STYLE20"><br />
+</span></span></span></p>
+<p class="STYLE15"><strong>Note</strong>: </p>
+<p class="STYLE15">  1. After unzipping the LDsplit package (using say WinZip), please do NOT move LDsplit.jar file outside the original folder, because it need to find 
+  the lookup files in the &quot;Lookup&quot; folder. For convenient access under Windows, you may create a shortcut to the LDsplit.jar file 
+  and paste the shortcut link in any folder you like (such as the desktop). </p>
+<p class="STYLE15">2. LDsplit takes some time to finish the running of &quot;Calculate recombination profiles&quot;. 
+  After you load input files, set the parameters and push the &quot;Start&quot; button, the progress 
+  bar may appear &quot;frozen&quot; for the first few minutes (depending on input size and parameters), but 
+  actually it is running. After a while, the progress bar will show percentage of work already done.
+Your patience is very much appreciated.</p>
+<p class="STYLE15">3. LDsplit has been tested under Windows XP/NT/7, and Linux (Unbuntu). </p>
+<p align="justify" class="STYLE13">&nbsp;</p>
+<p align="center"><img src="LDsplit/fig/LDsplit pipeline.png" alt="LDsplit algorithm" width="660" height="458" /></p>
+<p align="center"><span class="STYLE19"><strong>Figure 1</strong>. The workflow of LDsplit Algorithm</span></p>
+<p>&nbsp;</p>
+<p align="center"><img src="LDsplit/fig/LDsplit_gui.jpg" alt="LDsplit" width="892" height="525" /></p>
+<p align="center"><span class="STYLE19"><strong>Figure 2</strong>. Screenshot of LDsplit interface</span></p>
+<p>&nbsp;</p>
+<p><span class="STYLE23">Acknowledgements</span></p>
+<p class="STYLE13">  This project is currently supported by: </p>
+<ul class="STYLE13">
+  <li>Tier 1 AcRF Grant MOE RG 32/11 (M4010977.020) from Ministry of Education, Singapore </li>
+</ul>
+<p class="STYLE13">Previously it was partially supported by:</p>
+<ul class="STYLE13">
+  <li>Startup Grant M4080108.020, College of Engineering, Nanyang Technological University,
+    Singapore</li>
+  <li>Intramural Research Program of National Library of Medicine, National Institutes of Health, U.S.A.</li>
+</ul>
+<p class="STYLE13">&nbsp;</p>
+<p class="STYLE13"><strong><span class="STYLE24">References</span><br />
+  </strong><br />
+  J. Zheng, PP Khil, RD   Camerini-Otero, TM Przytycka. <a href="http://genomebiology.com/2010/11/10/R103">Detecting sequence polymorphisms   associated with meiotic recombination hotspots in the human genome</a>. <em>Genome Biology</em>, 11:R103. 2010  (<strong>IF</strong> =   9.036).</p>
+<p class="STYLE13">P. Yang, M. Wu, C-K Kwoh, PP Khil, RD Camerini-Otero, TM   Przytycka, J. Zheng<strong>*</strong>. Predicting DNA Sequence Motifs of   Recombination Hotspots by Integrative Visualization and Analysis. <em>Proc.   International Symposium on Integrative Bioinformatics</em>, pp. 52-58, 2012.</p>
+<p class="STYLE13">M. Wu, C-K Kwoh, TM Przytycka, J. Li, J. Zheng<strong>*</strong>. <a href="http://www.proteomesci.com/content/10/S1/S11">Epigenetic Functions   Enriched in Transcription Factors Binding to Mouse Recombination Hotspots</a>. <em>Proteome Science</em>, 10(Suppl 1):S11, 2012 (presented at BIBM'11)   (<strong>IF</strong> = 2.33).</p>
+<p class="STYLE13">M. Wu, C-K Kwoh, X-L Li, J. Zheng<strong>*</strong>. NetPipe: A   Network-based Pipeline for Discovery of Genes and Protein Complexes Regulating   Meiotic Recombination Hotspots. Proc. ACM Conference on Bioinformatics,   Computational Biology and Biomedicine (ACM-BCB), Orlando, FL, USA, pp. 20-27,   2012.</p>
+<p class="STYLE13">M. Wu, C-K Kwoh, TM Przytycka, J. Li, J.   Zheng<strong>*</strong>. Integration of Genomic and Epigenomic Features to Predict   Meiotic Recombination Hotspots in Human and Mouse. Proc. ACM Conference on   Bioinformatics, Computational Biology and Biomedicine (ACM-BCB), Orlando, FL,   USA, pp. 297-304, 2012.</p>
+<p class="STYLE13"></p>
+<p class="STYLE13">Last update: 11 Nov. 2012 </p>
+</body>
+</html>

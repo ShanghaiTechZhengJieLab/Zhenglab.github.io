@@ -1,0 +1,196 @@
+ConservedCluster 0:	
+Mouse:	AR	ESR1	HDAC1	JUN	NCOA3	NCOR2	NFKB1	RELA	RXRA	SP1	
+1.97442e-009	GO:0005634	 nucleus
+1.17265e-007	GO:0017053	 transcriptional repressor complex
+3.52663e-007	GO:0000790	 nuclear chromatin
+1.42368e-006	GO:0043234	 protein complex
+4.97448e-006	GO:0005654	 nucleoplasm
+Human:	AR	CREBBP	EP300	ESR1	HDAC1	HDAC3	HDAC4	JUN	NCOA3	NCOR1	NCOR2	NFKB1	PML	PPARG	RELA	RXRA	SMARCA4	SP1	
+1.56242e-019	GO:0005654	 nucleoplasm
+3.37064e-011	GO:0000118	 histone deacetylase complex
+1.7928e-010	GO:0005634	 nucleus
+1.85658e-010	GO:0017053	 transcriptional repressor complex
+1.39813e-009	GO:0000790	 nuclear chromatin
+
+ConservedCluster 1:	
+Mouse:	AR	BRCA1	CEBPB	CREBBP	EP300	ESR1	JUN	KAT2B	MYC	RB1	RELA	SMAD2	SMAD3	SMAD4	SP1	TRP53	
+1.63842e-021	GO:0005654	 nucleoplasm
+1.21905e-016	GO:0005667	 transcription factor complex
+1.17143e-014	GO:0005634	 nucleus
+4.54531e-013	GO:0043234	 protein complex
+7.23021e-011	GO:0005737	 cytoplasm
+Human:	AR	BRCA1	CEBPB	CREBBP	CTNNB1	EP300	ESR1	HDAC1	JUN	MYC	SIN3A	SMAD2	SMAD3	SMARCA4	SMARCC1	SP1	TP53	UBC	YY1	
+2.62146e-015	GO:0005654	 nucleoplasm
+5.14662e-011	GO:0005634	 nucleus
+1.70553e-009	GO:0000790	 nuclear chromatin
+2.99999e-008	GO:0005667	 transcription factor complex
+9.64162e-008	GO:0032993	 protein-DNA complex
+
+ConservedCluster 2:	
+Mouse:	BCL6	E2F3	SP1	YY1	
+8.54719e-005	GO:0005622	 intracellular
+0.0003305	GO:0005634	 nucleus
+0.000350427	GO:0005667	 transcription factor complex
+0.00130855	GO:0032993	 protein-DNA complex
+0.0016652	GO:0031011	 INO80 complex
+Human:	BCL6	CREBBP	E2F3	HCFC1	SP1	
+0.00184381	GO:0000123	 histone acetyltransferase complex
+0.00197012	GO:0005634	 nucleus
+0.00237002	GO:0048188	 COMPASS complex
+0.00263302	GO:0032993	 protein-DNA complex
+0.00289595	GO:0005657	 replication fork
+
+ConservedCluster 3:	
+Mouse:	BRCA1	CEBPB	CREB1	CREBBP	EP300	ESR1	MYC	NR3C1	RELA	SMAD3	SMAD4	SMARCA4	SRF	TRP53	
+1.73092e-015	GO:0005654	 nucleoplasm
+4.8037e-014	GO:0043234	 protein complex
+6.47575e-013	GO:0005634	 nucleus
+2.1753e-012	GO:0005667	 transcription factor complex
+9.53312e-012	GO:0000790	 nuclear chromatin
+Human:	BRCA1	CARM1	CEBPB	CREBBP	EP300	ESR1	MYC	PRMT1	RELA	SMARCA4	SMARCC1	SP1	TP53	
+2.71059e-009	GO:0005654	 nucleoplasm
+9.17764e-008	GO:0005634	 nucleus
+7.32956e-006	GO:0043234	 protein complex
+7.37638e-006	GO:0000790	 nuclear chromatin
+8.38922e-006	GO:0000123	 histone acetyltransferase complex
+
+ConservedCluster 4:	
+Mouse:	HDAC1	HDAC2	MYOD1	RB1	RBBP4	SUV39H1	
+5.55932e-010	GO:0016581	 NuRD complex
+3.88849e-009	GO:0000792	 heterochromatin
+1.86102e-007	GO:0005654	 nucleoplasm
+7.43238e-007	GO:0016580	 Sin3 complex
+7.43238e-007	GO:0035098	 ESC/E(Z) complex
+Human:	HDAC1	HDAC2	RB1	RBBP4	RBBP7	SIN3A	SMARCA4	SP1	SUV39H1	TAT	
+6.53257e-012	GO:0016580	 Sin3 complex
+5.65235e-011	GO:0016581	 NuRD complex
+7.0792e-009	GO:0035098	 ESC/E(Z) complex
+4.71033e-008	GO:0000792	 heterochromatin
+5.37881e-007	GO:0005654	 nucleoplasm
+
+ConservedCluster 5:	
+Mouse:	ESR1	FOS	GTF2B	JUN	MAPK1	NCOA1	RB1	RELA	TAF1	TBP	
+1.13795e-012	GO:0005654	 nucleoplasm
+1.97442e-009	GO:0005634	 nucleus
+5.56676e-007	GO:0005667	 transcription factor complex
+6.20267e-006	GO:0045120	 pronucleus
+9.53758e-006	GO:0005669	 transcription factor TFIID complex
+Human:	ESR1	FOS	HDAC1	JUN	RB1	RELA	SIN3A	SMARCA2	TAF1	TBP	TP53	UBC	
+1.10467e-016	GO:0005654	 nucleoplasm
+2.32359e-007	GO:0005669	 transcription factor TFIID complex
+1.90408e-006	GO:0005634	 nucleus
+5.60058e-006	GO:0000790	 nuclear chromatin
+5.90065e-006	GO:0005667	 transcription factor complex
+
+ConservedCluster 6:	
+Mouse:	CHUK	CLTC	HSPA8	HSPA9	IKBKB	IKBKG	MAP3K14	MAP3K8	NFKB1	NFKB2	NFKBIA	NFKBIE	REL	RELA	RELB	TUBB4A	
+8.7325e-014	GO:0005829	 cytosol
+7.23021e-011	GO:0005737	 cytoplasm
+3.09685e-010	GO:0008385	 IkappaB kinase complex
+1.46349e-005	GO:0043234	 protein complex
+0.000132517	GO:0009898	 internal side of plasma membrane
+Human:	BTRC	CHUK	IKBKB	IKBKG	NFKB1	NFKB2	NFKBIA	RELA	UBC	
+3.14658e-009	GO:0005829	 cytosol
+8.8469e-009	GO:0008385	 IkappaB kinase complex
+5.33557e-007	GO:0033256	 I-kappaB/NF-kappaB complex
+8.9006e-006	GO:0005737	 cytoplasm
+8.01959e-005	GO:0005634	 nucleus
+
+ConservedCluster 7:	
+Mouse:	EP300	MEF2A	MYOD1	SMAD2	SMAD4	
+4.20887e-010	GO:0005654	 nucleoplasm
+4.24901e-008	GO:0032444	 activin responsive factor complex
+2.67984e-006	GO:0005667	 transcription factor complex
+4.45407e-005	GO:0005634	 nucleus
+0.000520173	GO:0005813	 centrosome
+Human:	EP300	HDAC1	HDAC5	MEF2A	SMAD2	
+9.53377e-006	GO:0005654	 nucleoplasm
+1.79984e-005	GO:0000118	 histone deacetylase complex
+0.000790605	GO:0032444	 activin responsive factor complex
+0.00184381	GO:0000123	 histone acetyltransferase complex
+0.00197012	GO:0005634	 nucleus
+
+ConservedCluster 8:	
+Mouse:	AR	BRCA1	CREBBP	EP300	HDAC1	HDAC2	RB1	RBBP4	RELA	SP1	STAT3	TRP53	
+5.54417e-014	GO:0005654	 nucleoplasm
+2.06996e-013	GO:0005667	 transcription factor complex
+3.5771e-011	GO:0005634	 nucleus
+2.20806e-009	GO:0000790	 nuclear chromatin
+5.09239e-009	GO:0000785	 chromatin
+Human:	AR	BRCA1	CEBPB	CREBBP	EP300	ESR1	HDAC1	HDAC2	HDAC3	JUN	MYC	NCOR1	NCOR2	NR3C1	PML	RELA	SMAD3	SMARCA2	SMARCA4	SP1	STAT3	TP53	UBC	YY1	
+1.17417e-025	GO:0005654	 nucleoplasm
+2.54336e-015	GO:0000790	 nuclear chromatin
+1.00142e-013	GO:0005634	 nucleus
+8.75978e-010	GO:0017053	 transcriptional repressor complex
+8.42896e-009	GO:0005737	 cytoplasm
+
+ConservedCluster 9:	
+Mouse:	ESR1	NCOR1	NCOR2	RXRA	SP1	ZBTB16	
+1.95962e-008	GO:0017053	 transcriptional repressor complex
+6.00149e-006	GO:0005634	 nucleus
+7.95145e-006	GO:0016604	 nuclear body
+3.64344e-005	GO:0000790	 nuclear chromatin
+0.000713914	GO:0044429	 mitochondrial part
+Human:	AR	ESR1	HDAC3	HDAC4	HDAC5	NCOR1	NCOR2	NFKB1	RXRA	SIN3A	SMARCA4	SP1	SUMO1	
+4.66188e-012	GO:0000118	 histone deacetylase complex
+2.57253e-011	GO:0017053	 transcriptional repressor complex
+5.49109e-011	GO:0005654	 nucleoplasm
+4.95334e-008	GO:0000790	 nuclear chromatin
+9.17764e-008	GO:0005634	 nucleus
+
+ConservedCluster 10:	
+Mouse:	AR	BRCA1	CREBBP	EP300	HDAC1	JUN	MYOD1	NCOR2	RB1	SMAD3	SMAD4	SP1	
+1.97367e-016	GO:0005654	 nucleoplasm
+2.06996e-013	GO:0005667	 transcription factor complex
+3.5771e-011	GO:0005634	 nucleus
+3.13438e-008	GO:0043234	 protein complex
+1.9951e-007	GO:0005737	 cytoplasm
+Human:	AR	BRCA1	CREBBP	EP300	ESR1	HDAC1	JUN	MYC	RELA	SMARCA2	SP1	TAT	TBP	
+1.31668e-014	GO:0005654	 nucleoplasm
+3.93498e-006	GO:0005634	 nucleus
+7.37638e-006	GO:0000790	 nuclear chromatin
+8.38922e-006	GO:0000123	 histone acetyltransferase complex
+1.79561e-005	GO:0032993	 protein-DNA complex
+
+ConservedCluster 11:	
+Mouse:	BCL6	ELF1	NFYB	RB1	REL	SP1	
+6.00149e-006	GO:0005634	 nucleus
+7.09405e-006	GO:0005667	 transcription factor complex
+0.000633861	GO:0005622	 intracellular
+0.000713914	GO:0016602	 CCAAT-binding factor complex
+0.00196224	GO:0032993	 protein-DNA complex
+Human:	ELF1	HMGA1	NFKB1	REL	SP1	
+0.000790605	GO:0033256	 I-kappaB/NF-kappaB complex
+0.00197012	GO:0005634	 nucleus
+0.00263302	GO:0032993	 protein-DNA complex
+0.0159081	GO:0005654	 nucleoplasm
+0.019327	GO:0000785	 chromatin
+
+ConservedCluster 12:	
+Mouse:	AR	BRCA1	CREBBP	EP300	HDAC1	JUN	NCOA1	NFKB1	NR3C1	RELA	STAT1	STAT3	
+5.54417e-014	GO:0005654	 nucleoplasm
+3.5771e-011	GO:0005634	 nucleus
+5.24607e-010	GO:0043234	 protein complex
+9.64814e-009	GO:0005667	 transcription factor complex
+1.19124e-008	GO:0005737	 cytoplasm
+Human:	BTRC	CEBPB	CREBBP	EP300	HDAC1	HDAC3	NCOR2	NFKB1	NFKB2	NR3C1	PARP1	REL	RELA	SP1	STAT3	TAT	
+2.74972e-013	GO:0005654	 nucleoplasm
+1.29698e-008	GO:0005634	 nucleus
+1.55448e-006	GO:0000118	 histone deacetylase complex
+3.41921e-006	GO:0005737	 cytoplasm
+1.39725e-005	GO:0000123	 histone acetyltransferase complex
+
+ConservedCluster 13:	
+Mouse:	ID1	ID2	ID3	MYOG	SRF	TCF3	
+6.00149e-006	GO:0005634	 nucleus
+9.38e-005	GO:0005737	 cytoplasm
+0.00035701	GO:0000788	 nuclear nucleosome
+0.00138416	GO:0043234	 protein complex
+0.00257963	GO:0005654	 nucleoplasm
+Human:	ID2	ID3	MYOD1	TCF3	TCF4	UBC	
+2.20045e-005	GO:0005667	 transcription factor complex
+0.000566528	GO:0005634	 nucleus
+0.000632561	GO:0000788	 nuclear nucleosome
+0.00146781	GO:0005654	 nucleoplasm
+0.00168952	GO:0043234	 protein complex
+

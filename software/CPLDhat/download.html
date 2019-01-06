@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+<title>Download </title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="description" content="An improved method for recombination rate predicition" /> 
+
+<meta name="keywords" content="recombination rate" />
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+
+
+<script language="javascript" type="text/javascript">
+	function InitAjax() 
+{ 
+var ajax; 
+if(window.ActiveXObject){ 
+var versions = ['Microsoft.XMLHTTP', 'MSXML.XMLHTTP', 'Microsoft.XMLHTTP', 'Msxml2.XMLHTTP.7.0', 'Msxml2.XMLHTTP.6.0', 'Msxml2.XMLHTTP.5.0', 'Msxml2.XMLHTTP.4.0', 'MSXML2.XMLHTTP.3.0', 'MSXML2.XMLHTTP']; 
+for(var i=0; i <versions.length; i++) { 
+	try { 
+		ajax = new ActiveXObject(versions[i]); 
+		if(ajax) { 
+			return ajax; 
+		} 
+	} catch(e) {} 
+}
+ 
+}else if(window.XMLHttpRequest) 
+{ 
+	ajax = new XMLHttpRequest(); 
+} 
+
+return ajax; 
+} 
+//js自动下载文件到本地 
+var xh; 
+function getXML(geturl) { 
+alert(geturl); 
+xh = InitAjax(); 
+xh.onreadystatechange = getReady; 
+xh.open("GET", geturl, true); 
+xh.send(); 
+} 
+
+function getReady() { 
+
+//alert(xh.readyState); 
+if (xh.readyState == 4) { 
+alert(xh.status); 
+if (xh.status == 200) { 
+saveFile("kk.txt"); 
+return true; 
+} 
+else 
+{ return false; } 
+} 
+else 
+return false; 
+} 
+
+function saveFile(tofile) { 
+alert(tofile); 
+var objStream; 
+var imgs; 
+imgs = xh.responseBody; 
+objStream = new ActiveXObject("ADODB.Stream"); 
+objStream.Type = 1; 
+objStream.open(); 
+objStream.write(imgs); 
+objStream.SaveToFile(tofile) 
+} 
+</script>
+
+
+
+
+</head>
+
+<body id="page3">
+
+<!-- header -->
+
+<div id="header">
+
+	<div class="container">
+
+		<div class="wrapper">
+
+			<div class="logo">
+
+				<h1><a href="index.html">&nbsp;CPLDhat</a><span>&nbsp;&nbsp;&nbsp;&nbsp;Improved methods for recombination rate predicition.</span></h1>
+
+			</div>
+
+		</div>
+
+		<ul class="nav">
+
+			<li><a href="index.html" class="first">Home</a></li>
+
+			<li><a href="instruction.html" >Instruction</a></li>
+
+			<li><a href="download.html" class="current">Download</a></li>
+
+			<li><a href="contact-us.html">Contact Us</a></li>
+
+		</ul>
+
+	</div>
+
+</div>
+
+<!-- content -->
+
+<div id="content"><div class="inner_copy"></div>
+
+	<div class="container">
+
+		<div class="inside">
+
+<!-- box begin -->
+
+			<div class="box alt">
+
+				<div class="left-top-corner">
+
+					<div class="right-top-corner">
+
+						<div class="border-top"></div>
+
+					</div>
+
+				</div>
+
+				<div class="border-left">
+
+					<div class="border-right">
+
+						<div class="inner">
+
+							<ul class="items-list">
+
+								<li>
+
+									<h3>CPLDhat</h3><img alt="" src="images\f4.png" />
+
+									<p>CPLDhat package in zip file (including executable jar file)</p>
+
+									<a href="https://drive.google.com/file/d/0B3ZVHoEAg_gVWGlHMlZDTXVEQ3c/view?usp=sharing" >Download</a>
+
+								</li>
+													
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="left-bot-corner">
+
+					<div class="right-bot-corner">
+
+						<div class="border-bot"></div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+<!-- box end -->
+
+		</div>
+
+	</div>
+
+</div>
+
+<!-- footer -->
+
+<div id="footer">
+
+	<div class="container">
+
+		<div class="indent">
+
+			<div class="fleft">Copyrights - Type in Your Name Here</div>
+
+			<div class="fright">BioInformatics Research Centre at <a href="http://www3.ntu.edu.sg/birc/" target="_blank">www3.ntu.edu.sg/birc</a>.</div>
+		
+		</div>
+
+	</div>
+
+</div>
+
+</body>
+
+</html>
